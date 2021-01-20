@@ -28,7 +28,7 @@ vuetify.css
 EditedPlaceItemOld.vue
 AddTagOld.vue
 AddTag.vue
-EditedPlaceHeader.vue
-EditedPlaceItem.vue
-EditedPlacesContainer.vue
+# EditedPlaceHeader.vue
+# EditedPlaceItem.vue
+# EditedPlacesContainer.vue
 
