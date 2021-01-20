@@ -5,6 +5,7 @@ module.exports = {
   devServer: {
     disableHostCheck: true
   },
+  publicPath: '/khito-frontend/',
   chainWebpack: config => {
     config.module
       .rule('pug')
