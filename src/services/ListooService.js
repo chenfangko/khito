@@ -15,7 +15,7 @@ export default apiClient
 
 export const commonService = {
     GetRecommandLists({ filter }) {
-        return apiClient.post(`/common/get_recommand_lists/`, JSON.stringify({ filter }))
+        return apiClient.post(`/common/get_recommend_lists/`, JSON.stringify({ filter }))
     },
     GetHotTags({ count, page }) {
         return apiClient.get(`/common/get_hot_tags/?count=${count}&page=${page}`)
@@ -37,7 +37,7 @@ export const authService = {
 }
 export const userService = {
     GetUserPlaces({ filter }) {
-        return apiClient.post(`/user/get_user_places`, JSON.stringify({ filter }))
+        return apiClient.post(`/user/get_user_places/`, JSON.stringify({ filter }))
     },
     GetUserLists({ filter }) {
         return apiClient.post(`/user/get_user_lists/`, JSON.stringify({ filter }))
@@ -52,7 +52,7 @@ export const userService = {
         return apiClient.post(`/user/set_list_cover/`, JSON.stringify({ list_id, cover_image_url }))
     },
     SearchUserPlaces({ list_id, text }) {
-        return apiClient.post(`/user/search_user_places`, JSON.stringify({ list_id, text }))
+        return apiClient.post(`/user/search_user_places/`, JSON.stringify({ list_id, text }))
     },
     AddListPlaces({ list_id, places }) {
         return apiClient.post(`/user/add_list_places/`, JSON.stringify({ list_id, places }))

@@ -78,64 +78,64 @@ export default {
       isLoading: false,
       items: null,
       placeInfo: false,
-      list: {
-        info: {
-          id: 0,
-          creator_id: 0,
-          creator_name: "牟牟牟",
-          name: "某某某咖啡清單",
-          coverImageURL: "string",
-          creator_username: "Coffee Lover",
-          privacy: 1,
-          description:
-            "公告中提到，因應未來CITY系列現調飲品寄杯雲端化，今年12月1日起，CITY CAFE、CITY PRIMA精品咖啡、CITY TEA現萃茶。",
-          createdTime: 0,
-          updatedTime: 0,
-        },
-        places: [
-          {
-            id: 0,
-            gmap_id: "aaa",
-            name: "ＡＡＡ",
-            phone: "0987654321",
-            address: "string",
-            type: "string",
-            photo:
-              "https://doqvf81n9htmm.cloudfront.net/data/Luke1226_165/2020-02/%E5%92%96%E5%95%A1%E5%BB%B3/%E5%8F%B0%E5%8C%97%E7%99%AE%E5%92%96%E5%95%A1_40a.jpg",
-          },
-          {
-            id: 0,
-            gmap_id: "aaa",
-            name: "未央咖啡",
-            phone: "02-22334455",
-            address: "string",
-            type: "string",
-            photo:
-              "https://doqvf81n9htmm.cloudfront.net/data/Luke1226_165/2020-02/%E5%92%96%E5%95%A1%E5%BB%B3/%E5%8F%B0%E5%8C%97%E7%99%AE%E5%92%96%E5%95%A1_40a.jpg",
-          },
-        ],
-        system_tags: ["string"],
-        user_tags: [
-          {
-            id: 0,
-            type: 0,
-            name: "string",
-          },
-        ],
-      },
-      listInfo: {
-        info: {
-          id: 1,
-          creator_id: 0,
-          name: "list name",
-          coverImageURL: "string",
-          creator_username: "string",
-          privacy: 1,
-          description: "lsit info over here",
-          createdTime: 0,
-          updatedTime: 0,
-        },
-      },
+      // list: {
+      //   info: {
+      //     id: 0,
+      //     creator_id: 0,
+      //     creator_name: "牟牟牟",
+      //     name: "某某某咖啡清單",
+      //     coverImageURL: "string",
+      //     creator_username: "Coffee Lover",
+      //     privacy: 1,
+      //     description:
+      //       "公告中提到，因應未來CITY系列現調飲品寄杯雲端化，今年12月1日起，CITY CAFE、CITY PRIMA精品咖啡、CITY TEA現萃茶。",
+      //     createdTime: 0,
+      //     updatedTime: 0,
+      //   },
+      //   places: [
+      //     {
+      //       id: 0,
+      //       gmap_id: "aaa",
+      //       name: "ＡＡＡ",
+      //       phone: "0987654321",
+      //       address: "string",
+      //       type: "string",
+      //       photo:
+      //         "https://doqvf81n9htmm.cloudfront.net/data/Luke1226_165/2020-02/%E5%92%96%E5%95%A1%E5%BB%B3/%E5%8F%B0%E5%8C%97%E7%99%AE%E5%92%96%E5%95%A1_40a.jpg",
+      //     },
+      //     {
+      //       id: 0,
+      //       gmap_id: "aaa",
+      //       name: "未央咖啡",
+      //       phone: "02-22334455",
+      //       address: "string",
+      //       type: "string",
+      //       photo:
+      //         "https://doqvf81n9htmm.cloudfront.net/data/Luke1226_165/2020-02/%E5%92%96%E5%95%A1%E5%BB%B3/%E5%8F%B0%E5%8C%97%E7%99%AE%E5%92%96%E5%95%A1_40a.jpg",
+      //     },
+      //   ],
+      //   system_tags: ["string"],
+      //   user_tags: [
+      //     {
+      //       id: 0,
+      //       type: 0,
+      //       name: "string",
+      //     },
+      //   ],
+      // },
+      // listInfo: {
+      //   info: {
+      //     id: 1,
+      //     creator_id: 0,
+      //     name: "list name",
+      //     coverImageURL: "string",
+      //     creator_username: "string",
+      //     privacy: 1,
+      //     description: "lsit info over here",
+      //     createdTime: 0,
+      //     updatedTime: 0,
+      //   },
+      // },
     };
   },
   computed: {

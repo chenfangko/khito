@@ -50,34 +50,34 @@ export default {
       selectedListId: null,
       url: url.baseUrl,
       clearInput: false,
-      userLists: {
-        lists: [
-          {
-            id: 1,
-            creator_id: 1,
-            name: "深夜咖啡地圖",
-            coverImageURL: null,
-            privacy: 1,
-            description: "開到深夜的地圖清單",
-          },
-          {
-            id: 2,
-            creator_id: 1,
-            name: "時髦街區散步地圖",
-            coverImageURL: null,
-            privacy: 2,
-            description: "做一個時髦的人，在假日一個人散步走走",
-          },
-        ],
-        system_tags: ["string"],
-        user_tags: [
-          {
-            id: 0,
-            type: 0,
-            name: "string",
-          },
-        ],
-      },
+      // userLists: {
+      //   lists: [
+      //     {
+      //       id: 1,
+      //       creator_id: 1,
+      //       name: "深夜咖啡地圖",
+      //       coverImageURL: null,
+      //       privacy: 1,
+      //       description: "開到深夜的地圖清單",
+      //     },
+      //     {
+      //       id: 2,
+      //       creator_id: 1,
+      //       name: "時髦街區散步地圖",
+      //       coverImageURL: null,
+      //       privacy: 2,
+      //       description: "做一個時髦的人，在假日一個人散步走走",
+      //     },
+      //   ],
+      //   system_tags: ["string"],
+      //   user_tags: [
+      //     {
+      //       id: 0,
+      //       type: 0,
+      //       name: "string",
+      //     },
+      //   ],
+      // },
     };
   },
   watch: {
